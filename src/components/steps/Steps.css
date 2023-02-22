@@ -1,0 +1,33 @@
+.step {
+  border-bottom: 2px solid black;
+  margin: 0 0.4rem;
+}
+
+.step1 {
+  /*border-bottom: 2px solid black;*/
+  margin-left: 5rem;
+  margin-top: 0.6rem;
+  margin-right: 5rem;
+}
+
+.loc-img {
+  height: 5rem;
+  margin-top: 0.1rem;
+  margin-left: 0rem;
+  width: 5rem;
+  position: absolute;
+  left: 0;
+}
+
+.flag-img {
+  height: 5rem;
+  width: 4rem;
+  position: absolute;
+  right: 0;
+}
+
+.steps-left-label {
+  position: absolute;
+  right: 3em;
+  font-weight: 600;
+}

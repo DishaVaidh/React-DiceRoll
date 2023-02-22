@@ -1,0 +1,46 @@
+.participant1 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  margin: 0.6em;
+}
+
+.participant2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0.6em;
+}
+
+.profile-img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.text-style {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.text-score {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 490px) {
+  .participant1 {
+    display: block;
+  }
+
+  .participant2 {
+    display: block;
+  }
+
+  .name-score {
+    text-align: center;
+  }
+}
